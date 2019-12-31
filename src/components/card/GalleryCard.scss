@@ -1,0 +1,40 @@
+.downloadIcon {
+    cursor: pointer;
+    z-index: 999;
+}
+
+.zoom-in-image{
+    height: auto; 
+    overflow: hidden; 
+    position: relative;
+    img{
+        transition: transform .5s ease;
+    }
+    &:hover {
+        img { 
+            transform: scale(1.5);
+        }
+    }
+}
+.card{
+    cursor: pointer;
+}
+
+
+.modal-header{
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    border-radius: 0;
+    color: white;
+    border-bottom: 0;
+}
+
+.backgroundImg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;;
+    width: 100%;
+    background-position: center;
+}

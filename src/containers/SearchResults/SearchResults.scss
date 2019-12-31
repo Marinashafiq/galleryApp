@@ -1,0 +1,25 @@
+.nav-tabs{
+    border-bottom: none;  
+}
+.nav-tabs .nav-item{
+    margin-bottom: 0;
+}
+
+.nav-tabs .nav-link{
+    color:white;
+    margin-right: 20px;
+    border-radius: .25rem;
+    &.active{
+        color: white;
+        background-color: #ffc107; 
+        border: none ;
+        &:hover{
+            color:white;
+            border:none ;
+        }
+    }
+    &:hover{
+        border: none ;
+        color:#ffc107;
+    } 
+}

@@ -1,0 +1,22 @@
+.loaderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    &:before{
+        content: '';
+        background: #000000cc;
+        opacity: .5;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .spinner-border{
+        z-index: 2;
+    }
+}

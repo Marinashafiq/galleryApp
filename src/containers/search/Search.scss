@@ -1,0 +1,22 @@
+::placeholder {
+    color: lightgray;
+    font-size: 1rem;
+}
+
+.border-raduis-3{
+    border-radius: 3em !important;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .search-input{
+        flex-wrap: wrap;
+    }
+    
+    .searchBtn{
+        width : 100%;
+        margin-top:1em;
+        margin-bottom: 2em;
+    }
+}
