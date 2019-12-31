@@ -31,7 +31,7 @@ ReactDOM.render(
            {/* <BrowserRouter basename={window.location.pathname || ''}> */}
 
         <AlertProvider template={AlertTemplate} {...options}>
-        <App />
+            <App />
         </AlertProvider>
         {/* </BrowserRouter> */}
     </Provider>,
